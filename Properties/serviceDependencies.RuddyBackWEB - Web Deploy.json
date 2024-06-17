@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "mssql3": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/ruddydbserver/databases/Ruddy.WEB_db",
+      "type": "mssql.azure",
+      "connectionId": "NewConnection",
+      "secretStore": "AzureAppSettings"
+    },
+    "mssql4": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourcegroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/ruddywebbackdbserver/databases/Ruddy.WEBBack_db",
+      "type": "mssql.azure",
+      "connectionId": "NewConnection",
+      "secretStore": "AzureAppSettings"
+    }
+  }
+}

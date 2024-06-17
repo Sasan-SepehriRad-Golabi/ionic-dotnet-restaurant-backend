@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "mssql1": {
+      "type": "mssql",
+      "connectionId": "DefaultConnection"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "AzureConnection"
+    },
+    "mssql3": {
+      "type": "mssql",
+      "connectionId": "NewConnection"
+    },
+    "mssql4": {
+      "type": "mssql",
+      "connectionId": "NewConnection"
+    }
+  }
+}
